@@ -5,6 +5,10 @@
 body{
     background-image: url("../img/silverware.jpg");
 }
+#container{
+    margin: 0 auto;
+    width: 900px;
+}
 h1{
     text-align: center;
     color: rgb(164, 164, 0);

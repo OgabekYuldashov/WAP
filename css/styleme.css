@@ -1,11 +1,16 @@
 body{
     background-color: beige;
-    font-family: Calibri, "Courier New", "Times New Roman";
+    font-family: Calibri, "Courier New", "Times New Roman", serif;
     font-weight: 500;
     margin: 20px;
 }
 h1{
     text-align: center;
+}
+dt{
+    text-indent: 10px;
+    font-weight: bold;
+    font-size: 1.1em;
 }
 h2{
     color: saddlebrown;
