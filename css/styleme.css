@@ -1,0 +1,33 @@
+body{
+    background-color: beige;
+    font-family: Calibri, "Courier New", "Times New Roman";
+    font-weight: 500;
+    margin: 20px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    color: saddlebrown;
+}
+.actor-name-inline{
+    font-size: x-large;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.drop-caps{
+    font-size: 150%;
+    font-weight: bold;
+}
+.film-name-item{
+    font-size: 120%;
+    color: chocolate;
+    font-weight: bold;
+}
+li ul{
+    list-style: none;
+}
