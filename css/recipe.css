@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("../img/silverware.jpg");
+}
+h1{
+    text-align: center;
+    color: rgb(164, 164, 0);
+    text-decoration: underline;
+    letter-spacing: 7px;
+    word-spacing: 10px;
+}
