@@ -1,6 +1,11 @@
+@font-face {
+    font-family: Expressa-regular;
+    src: url("../font/Expressa-Serial-Regular_0.ttf");
+}
+
 body{
     background-color: beige;
-    font-family: Calibri, "Courier New", "Times New Roman", serif;
+    font-family: Expressa-regular, Calibri, "Courier New", serif;
     font-weight: 500;
     margin: 20px;
 }
