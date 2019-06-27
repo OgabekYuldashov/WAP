@@ -68,6 +68,9 @@ h1{
 #comments-container > div {
     flex: 50%;
 }
+#comments-container p > span{
+    font-style: italic;
+}
 .comments-left{
     margin-left: 2%;
 }
