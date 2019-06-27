@@ -1,3 +1,7 @@
+/*Name: Ogabek Yuldashov
+  Style for the tmnt.html file
+*/
+
 body{
     background-image: url("../img/background.png");
     font-family: Verdana, Tahoma, sans-serif;
@@ -37,6 +41,17 @@ h1{
 }
 #verifiers{
     float: right;
+    position: fixed;
+    bottom: 5pt;
+    right: 5pt;
+}
+#verifiers img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+#verifiers > a{
+    display: block;
 }
 #critics-reviews{
     display: flex;
@@ -46,4 +61,57 @@ h1{
     color: red;
     font-size: 48pt;
     font-weight: bold;
+}
+#comments-container{
+    display: flex;
+}
+#comments-container > div {
+    flex: 50%;
+}
+.comments-left{
+    margin-left: 2%;
+}
+.comments-right{
+    margin: 0 2%;
+}
+.commentbox {
+    font-size: 8pt;
+    font-weight: bold;
+    background-color: #E8DC9B;
+    border-radius: 10px;
+    border: 2px solid gray;
+    padding: 8px;
+    margin-top: 20pt;
+    overflow: auto;
+    clear: left;
+}
+#comments-container img {
+    float: left;
+    margin-right: 5px;
+}
+#comments-container p:first-child{
+    margin-top: 10pt;
+}
+.right{
+    font-family: Arial, sans-serif;
+    background-color: #A2B964;
+}
+.right > dl {
+    margin: 15pt 10pt;
+}
+dt {
+    font-weight: 900;
+    margin-top: 10pt;
+}
+dd > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#container > p {
+    clear: both;
+    background-color: #A2B964;
+    padding: 5px;
+    margin: 0;
+    text-align: center;
 }
