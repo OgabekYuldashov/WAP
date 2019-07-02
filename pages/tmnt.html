@@ -21,6 +21,35 @@
 <h1>TMNT (2007)</h1>
 
 <div id="container">
+    <div id="popup">
+        <input type="button" id="btnClose" value="X">
+        <h2>Sign Up for our newsletter!</h2>
+        <p id="note">Clear Cookies for the pop-up to re-appear</p>
+        <form method="post" action="#">
+            <input id="txtEmail" type="email" name="email" required placeholder="Leave your email here">
+            <input id="btnSignup" type="submit" value="SIGN UP!">
+        </form>
+    </div>
+    <script>
+        function accessCookie(cookieName)
+        {
+            var name = cookieName + "=";
+            var allCookieArray = document.cookie.split(';');
+            for(var i=0; i<allCookieArray.length; i++)
+            {
+                var temp = allCookieArray[i].trim();
+                if (temp.indexOf(name)===0)
+                    return temp.substring(name.length,temp.length);
+            }
+            return "";
+        }
+
+        var isSignedUp = accessCookie("signedup");
+        var popup = document.getElementById("popup");
+        if (isSignedUp)
+            popup.style.display = "none";
+
+    </script>
     <div class="left">
         <div id="critics-reviews">
             <img src="../img/rottenbig.png" alt="Rotten"/>
@@ -203,6 +232,30 @@
 
     <p>(1-10) of 88</p>
 
+    <script>
+        var popup = document.getElementById("popup");
+        var btnClose = document.getElementById("btnClose");
+        btnClose.onclick = function () {
+            popup.style.display = "none";
+        };
+
+        var btnSignup = document.getElementById("btnSignup");
+        btnSignup.onclick = function () {
+            let txtEmail = document.getElementById("txtEmail");
+            if(isValidEmail(txtEmail.value)){
+                alert("Thank You!");
+                popup.style.display = "none";
+                document.cookie = "signedup=1"
+            }else {
+                txtEmail.style.backgroundColor = "red";
+            }
+        };
+
+        function isValidEmail(email) {
+            var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            return re.test(email);
+        }
+    </script>
 </div>
 
 <div id="verifiers">

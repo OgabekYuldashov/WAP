@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CapitalOne Form</title>
+    <link rel="stylesheet" href="../css/capitalone.css">
+</head>
+<body>
+
+<div id="container">
+
+    <form>
+        <!--Personal Information Section-->
+        <h1>Personal Information</h1>
+        <div id="flex-container-pesonal-info">
+            <div>
+                <label>First Name
+                    <input name="firstName">
+                </label>
+                <label>Date of Birth
+                    <input type="date" name="dob">
+                </label>
+            </div>
+            <div>
+                <label>Last Name
+                    <input name="lastName">
+                </label>
+                <label>Mother's Maiden Name
+                    <input type="date" name="maidenName">
+                </label>
+            </div>
+            <img id="cardImg"
+                 src="https://applynow.capitalone.ca/static/images/dynamic/secure/guaranteedmastercard/card-en.png">
+        </div>
+        <div class="flex-2-col">
+            <label>Social Insurance Number(Optional)
+                <input type="number" name="sin" maxlength="9" pattern="/^[0-9]{3}-[0-9]{3}-[0-9]{3}$/">
+            </label>
+            <label>How did you learn about this card? (Optional)
+                <select>
+                    <option>Mail Offer</option>
+                    <option>Search Engine</option>
+                    <option>Online Banner ad or Video</option>
+                    <option>Credit Cards Comparison Site</option>
+                    <option>Email with CapitalOne content</option>
+                    <option>Family or Friend</option>
+                    <option>Television</option>
+                    <option>Outdoor or Transit Ad</option>
+                    <option>Newspaper</option>
+                    <option>Magazine</option>
+                </select>
+            </label>
+        </div>
+
+        <!--Contact Information Section-->
+        <hr>
+        <h1>Contact Information</h1>
+        <div class="flex-2-col">
+            <label>Home Address (No P.O. Boxes)
+                <input name="address">
+            </label>
+            <label>Suite/Apt. # (if Applicable)
+                <input name="apartment">
+            </label>
+        </div>
+        <div class="flex-2-col">
+            <label>Email Address
+                <input type="email" required name="email">
+            </label>
+            <label>Primary Phone Number
+                <input type="tel" name="phone">
+            </label>
+        </div>
+
+        <!--Autorized User Section-->
+        <hr>
+        <div id="sectAuthorized">
+            <h1>Authorized User</h1>
+            <label class="flexbox pointer">
+                <input type="checkbox" name="cbxAutorized">Yes! I would like to add an Authorized User (AU) to my
+                account and receive a second card with their name on it.
+            </label>
+
+
+        </div>
+
+
+        <!--Employment Information-->
+        <hr>
+        <h1>Employment Information</h1>
+        <div id="sectEmployment">
+            <label>Employment Status
+                <select>
+                    <option>Employed</option>
+                    <option>Self-employed</option>
+                    <option>Retired</option>
+                    <option>Student</option>
+                    <option>Unemployment</option>
+                </select>
+            </label>
+        </div>
+
+        <!--Financial Information-->
+        <hr>
+        <div id="sectFinInfo">
+            <h1>Financial Information</h1>
+
+            <div>
+                <span>Do You: (Optional)</span>
+                <span class="flexbox">
+                <label class="pointer flexbox">
+                    <input class="pointer" type="radio" name="rbnFinInfo">Own
+                </label>
+                <label class="pointer flexbox">
+                    <input class="pointer" type="radio" name="rbnFinInfo">Rent
+                </label>
+                <label class="pointer flexbox">
+                    <input class="pointer" type="radio" name="rbnFinInfo">Live with parents
+                </label>
+                <label class="pointer flexbox">
+                    <input class="pointer" type="radio" name="rbnFinInfo">Other
+                </label>
+            </span>
+            </div>
+
+            <div class="flex-2-col">
+                <div  class="flex-item">
+                    <label>Your Annual Income (Before Taxes)
+                        <input type="number" name="annualIncome">
+                    </label>
+                </div>
+                <div class="flex-item">
+                    <label>Other Household Income (Before Taxes)
+                        <input type="number" name="housholdIncome">
+                    </label>
+                </div>
+            </div>
+            <div class="flex-2-col">
+                <div  class="flex-item">
+                    <span>Do you have a mortgage? (Optional)</span>
+                    <span class="flexbox">
+                        <label class="pointer flexbox">
+                            <input class="pointer" type="radio" name="rbnHasMortgage">Yes
+                        </label>
+                        <label class="pointer flexbox">
+                            <input class="pointer" type="radio" name="rbnNoMortgage">No
+                        </label>
+                    </span>
+                </div>
+                <div  class="flex-item">
+                    <label>Monthly Rent/Mortgage (Optional)
+                        <input type="number" name="rent">
+                    </label>
+                </div>
+            </div>
+            <div class="flex-2-col">
+                <div class="flex-item">
+                    <label>Do you have any bank accounts?
+                        <select>
+                            <option>Chequing and Savings</option>
+                            <option>Chequing Only</option>
+                            <option>Savings Only</option>
+                            <option>Neither</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="flex-item">
+                    <span>Would you like to use your card for cash advances? (Optional)</span>
+                    <span class="flexbox">
+                        <label class="pointer flexbox">
+                            <input class="pointer" type="radio" name="rbnUseCashAdvances">Yes
+                        </label>
+                        <label class="pointer flexbox">
+                            <input class="pointer" type="radio" name="rbnNotUseCashAdvances">No
+                        </label>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        <p>By selecting “Review My Application”, you confirm that you have read, understood and agree to the above <a href="#">Important Disclosures.</a></p>
+
+        <input id="btnSubmit" class="pointer" type="submit" value="Review My Application">
+
+    </form>
+</div>
+
+</body>
+</html>
