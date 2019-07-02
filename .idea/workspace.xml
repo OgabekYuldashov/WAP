@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3345bfe0-7d05-48ec-bb60-30824c9e9f46" name="Default" comment="CapitalOne forms added to index.html and Pop-up added in Movie review page.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/capitalone.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/capitalone-form.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/layout.css" afterPath="$PROJECT_DIR$/css/layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/movie.css" afterPath="$PROJECT_DIR$/css/movie.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/tmnt.html" afterPath="$PROJECT_DIR$/pages/tmnt.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -47,8 +41,8 @@
       <file leaf-file-name="tmnt.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/tmnt.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+            <state relative-caret-position="430">
+              <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
               <folding>
                 <element signature="n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -223,7 +217,7 @@
       <workItem from="1561561437181" duration="21665000" />
       <workItem from="1561649166423" duration="11209000" />
       <workItem from="1561735915745" duration="23680000" />
-      <workItem from="1562104191767" duration="3687000" />
+      <workItem from="1562104191767" duration="3828000" />
     </task>
     <task id="LOCAL-00001" summary="Lab 0 Done!">
       <created>1561437429255</created>
@@ -344,11 +338,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561617751111</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="CapitalOne forms added to index.html and Pop-up added in Movie review page.">
+      <created>1562107887350</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1562107887350</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83241000" />
+    <option name="totallyTimeSpent" value="83382000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -651,8 +652,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/tmnt.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        <state relative-caret-position="430">
+          <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
           <folding>
             <element signature="n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
