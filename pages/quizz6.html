@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quizz 6</title>
+
+    <style>
+        body{
+            font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+        }
+        #container {
+            box-sizing: border-box;
+            width: 700pt;
+            margin: 10pt auto;
+            padding: 10pt;
+            border: 2px solid lightgrey;
+            overflow: auto;
+        }
+        img {
+            float: left;
+            margin-right: 10pt;
+            border: 2px solid grey;
+        }
+        section {
+            display: block;
+            margin: 10pt;
+            padding: 10pt;
+            border: 1px solid lightgrey;
+            overflow: auto;
+        }
+        hr{
+            clear: left;
+        }
+        /*p{
+            font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+        }*/
+    </style>
+</head>
+<body>
+<div id="container">
+    <section>
+        <h1>9. Write expected output of following code on paper</h1>
+        <img src="../img/task9.jpg">
+        <p>The actual result is the same as the expected output. The main thing to consider is the fact that regardless the position where declared and defined in the scope, a variable is "hoisted" resulting in it being "undefined" if called before the definition.</p>
+    </section>
+    <hr>
+
+    <section>
+        <h1>10. Figure out the output of following lines of code:</h1>
+        <img src="../img/task10.jpg">
+        <p>The expected sequence of values have been observed after code execution. The function "foo()" defines its own "z" and "x" variables in its scope that results in the outer variables with the same name to remain intact. Since a new "x" variable was declared during "hoisting" but not defined before calling the function "foo1()", it returned an "undefined" value.</p>
+    </section>
+</div>
+
+</body>
+</html>

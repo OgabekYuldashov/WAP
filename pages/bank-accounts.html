@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bank accounts</title>
+
+    <style>
+        #container {
+            box-sizing: border-box;
+            width: 700pt;
+            margin: 10pt auto;
+            border: 2px solid lightgrey;
+        }
+        #container > input, label, textarea{
+            display: block;
+            margin: 10pt;
+        }
+        #accountsArea{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <label>
+            Account Name: <input id="acctName">
+        </label>
+        <label>
+            Deposit: <input id="deposit" type="number" pattern="^\d+$" title="Only Numbers are allowed">
+        </label>
+        <input id="btnCreateAcct" type="button" value="Create new Account">
+
+        <textarea id="accountsArea" rows="10" title="Created Accounts"></textarea>
+    </div>
+
+<script src="../js/bank-account.js"></script>
+</body>
+</html>
