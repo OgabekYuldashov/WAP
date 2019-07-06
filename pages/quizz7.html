@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quizz 7</title>
+    <link rel="stylesheet" href="../css/quizz-style.css">
+
+</head>
+<body>
+<div id="container">
+    <h1>QUIZZ 7</h1>
+    <section>
+        <h1>2. Based on code given code:</h1>
+        <img src="../img/q7task2.jpg">
+        <p>
+            a. How many global variables we have?<br>
+            -- 1 global variable! x = 10;
+        </p>
+        <p>
+            b. Are there any closures in the code?<br>
+            -- There is one closure: it is the inner function of function "f1". It is considered a closure because it has a reference to "arg2" parameter of f1 function. However, function "f1" does not create a closure since it has no free variables.
+        </p>
+        <p>
+            c. What will be the outputs of the code?<br>
+            -- "outer1" and 10.
+        </p>
+        <p>
+            d. How will you call function f1 from outside the module?<br>
+            -- A reference to "f1" function should be created inside an object and the object should be returned by the IIFE. For example: <code> return {f1: f1}</code>.
+        </p>
+    </section>
+    <hr>
+
+    <section>
+        <h1>4. explain why this is undefined.</h1>
+        <img src="../img/q7task4.jpg">
+        <p>
+            As per the natural behavior of "arrow functions",<code>this</code> keyword is NON-BINDING, meaning "this" is not bound to anything at this stage. For this reason, the value is "undefined".
+        </p>
+    </section>
+</div>
+
+</body>
+</html>

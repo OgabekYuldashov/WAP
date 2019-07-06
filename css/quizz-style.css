@@ -1,0 +1,31 @@
+
+body{
+    font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+}
+#container {
+    box-sizing: border-box;
+    width: 700pt;
+    margin: 10pt auto;
+    padding: 10pt;
+    border: 2px solid lightgrey;
+    overflow: auto;
+}
+img {
+    float: left;
+    margin-right: 10pt;
+    border: 2px solid grey;
+    width: 55%;
+}
+section {
+    display: block;
+    margin: 10pt;
+    padding: 10pt;
+    border: 1px solid lightgrey;
+    overflow: auto;
+}
+hr{
+    clear: left;
+}
+h1{
+    text-align: center;
+}
