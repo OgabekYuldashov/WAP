@@ -4,6 +4,7 @@ body, button {
 	font-family: cursive;
 	font-size: 14pt;
 	text-align: center;
+	background-color: aqua;
 }
 
 /* The area that holds the 15 puzzle pieces. */
@@ -34,8 +35,8 @@ body, button {
 /* grading styles -- for TAs only; not required by students */
 #gradingarea {
 	position: fixed;
-	right: 0px;
-	top: 0px;
+	right: 0;
+	top: 0;
 	z-index: 999999;
 }
 
